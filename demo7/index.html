@@ -5,14 +5,14 @@
     <meta name="viewport"
       content="width=device-width, initial-scale=1" />
     <title>React App</title>
-    <script src="https://unpkg.com/react/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" defer></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" defer></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
   </head>
   <body>
 
     <div id="root"></div>
-    <script type="text/babel">
+    <script type="text/babel" data-preset="react">
     class MyHeader extends React.Component {
         render() {
             return (
